@@ -14,12 +14,7 @@
 //! After creating the four variables mentioned above, uncomment the following lines
 //* This way you can export them to the test file, this is essential for the tests to work
 
-module.exports = {
-     tot_temperature_in_fahrenheit,
-     tot_temperature_in_celsius,
-     avg_temperature_in_fahrenheit,
-     avg_temperature_in_celsius
-};
+
 
 // Defining Variables 
 
@@ -167,3 +162,10 @@ console.log("Average temperature in Celsius:", avg_temperature_in_celsius);
 
 console.log("Total temperature in Fahrenheit:", tot_temperature_in_fahrenheit);
 console.log("Average temperature in Fahrenheit:", avg_temperature_in_fahrenheit);
+
+module.exports = {
+     tot_temperature_in_fahrenheit,
+     tot_temperature_in_celsius,
+     avg_temperature_in_fahrenheit,
+     avg_temperature_in_celsius
+};
